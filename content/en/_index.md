@@ -1,11 +1,15 @@
 ---
 date: "2023-12-24"
+
 sections:
+
 - block: about.biography
   content:
     title: Biography
     username: admin
   id: about
+
+
 - block: skills
   content:
     text: ""
