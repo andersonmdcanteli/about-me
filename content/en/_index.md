@@ -17,34 +17,63 @@ sections:
     username: admin
   design:
     columns: "1"
+
+    
 - block: experience
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
-      company_logo: org-gc
-      company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
-      description: |2-
-          Responsibilities include:
 
-          * Analysing
-          * Modelling
-          * Deploying
-      location: California
-      title: CEO
-    - company: University X
-      company_logo: org-x
+    - company: Anderson Canteli Treinamento & Consultoria
+      company_logo: actec
+      company_url: "https://andersoncanteli.com.br/"
+      date_start: "2020-12-01"
+      date_end: ""
+      description: |2-
+          Responsibilities
+
+          - Teach classes
+          - Develop courses
+          - Develop/record tutorials
+          - Create dashboards for data analysis
+          
+      location: Curitiba
+      title: Teacher
+
+    - company: Federal University of Parana (UFPR)
+      company_logo: ufpr
       company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      date_start: "2014-03-01"
+      date_end: "2018-03-01"
+      description: |2-
+          Development of the doctoral thesis
+
+          *[Adsorção de corante por um biossorvente obtido do casulo do bicho-da-seda (Bombyx mori): experimentos e modelagem](https://acervodigital.ufpr.br/xmlui/handle/1884/58189)*
+          
+      location: Curitiba
+      title: Master's student
+
+
+    - company: Federal University of Parana (UFPR)
+      company_logo: ufpr
+      company_url: ""
+      date_start: "2011-03-01"
+      date_end: "2013-03-01"
+      description: |2-
+          Development of the master's thesis
+
+          *[Recuperação do aroma de café, benzaldeído, em coluna de adsorção utilizando carvão ativado](https://acervodigital.ufpr.br/handle/1884/30536)*
+          
+      location: Curitiba
+      title: Master's student
+
+
     title: Experience
   design:
     columns: "2"
+
+
+
 - block: accomplishments
   content:
     date_format: Jan 2006
