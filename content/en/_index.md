@@ -109,6 +109,8 @@ sections:
     title: Accomplish&shy;ments
   design:
     columns: "2"
+
+
 - block: collection
   content:
     count: 5
@@ -131,6 +133,8 @@ sections:
     columns: "2"
     view: compact
   id: posts
+
+
 - block: portfolio
   content:
     buttons:
@@ -150,13 +154,18 @@ sections:
     flip_alt_rows: false
     view: showcase
   id: projects
-- block: markdown
-  content:
-    subtitle: ""
-    text: '{{< gallery album="demo" >}}'
-    title: Gallery
-  design:
-    columns: "1"
+
+
+# - block: markdown
+#   content:
+#     subtitle: ""
+#     text: '{{< gallery album="demo" >}}'
+#     title: Gallery
+#   design:
+#     columns: "1"
+
+
+
 - block: collection
   content:
     filters:
@@ -168,6 +177,8 @@ sections:
     columns: "2"
     view: card
   id: featured
+
+
 - block: collection
   content:
     filters:
@@ -182,21 +193,27 @@ sections:
   design:
     columns: "2"
     view: citation
-- block: collection
-  content:
-    filters:
-      folders:
-      - event
-    title: Recent & Upcoming Talks
-  design:
-    columns: "2"
-    view: compact
-  id: talks
-- block: tag_cloud
-  content:
-    title: Popular Topics
-  design:
-    columns: "2"
+
+
+# - block: collection
+#   content:
+#     filters:
+#       folders:
+#       - event
+#     title: Recent & Upcoming Talks
+#   design:
+#     columns: "2"
+#     view: compact
+#   id: talks
+
+
+# - block: tag_cloud
+#   content:
+#     title: Popular Topics
+#   design:
+#     columns: "2"
+
+
 - block: contact
   content:
     address:
